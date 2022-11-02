@@ -1,0 +1,139 @@
+.top {
+    position: sticky;
+    top: 10px;
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-color: black;
+}
+.cabecera2 {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 25vw;
+    background-color: rgba(255, 235, 205, 0.68);
+    justify-content: center;
+    
+
+
+}
+.header2{
+    display: flex;
+    justify-content: center;
+}
+
+#enlaces {
+    display: flex;
+    align-self: flex-start;
+
+}
+
+.botones {
+    width: 27%;
+    text-align: center;
+    align-self: center;
+}
+
+.sep {
+    background-color: black;
+    width: 3px;
+}
+
+.contenedorRounded {
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(255, 235, 205, 0.68);
+    padding: 10px;
+    width: 24%;
+    border-style: solid;
+}
+
+.contenedorRounded2 {
+    border-radius: 25px;
+    background-color: rgba(255, 235, 205, 0.68);
+    padding: 10px;
+    margin-left: 2vw;
+    width: 29%;
+    border-style: solid;
+}
+
+#divisor {
+    padding-bottom: 90px;
+}
+
+.colorFondo {
+    background-color: rgba(255, 235, 205, 0.68);
+}
+
+.textoPegadoIzquierda {
+    box-sizing: border-box;
+    text-align: start;
+    overflow:visible;
+}
+
+.body {
+    background-image: url(/Imagenes/84248.png);
+    background-size: cover;
+}
+.body2 {
+    background-image: url(/Imagenes/2435550.png);
+    background-size: cover;
+}
+
+
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.cont2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding-top: 25px;
+}
+.letra{
+    font-size: 22px;
+}
+.letra2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.imagenes1{
+    align-items: flex-start;
+    height: 80%; 
+    width: 80%; 
+    object-fit: contain;
+}
+#autor{
+    border-radius: 35px;
+    border-style: solid;
+    font-size:  0.8vw;
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    background-color: rgba(255, 235, 205, 0.68);
+    bottom: 0.5%;
+    position: fixed;
+}
+#autor2{
+    margin: 0px;
+    align-self: center;
+}
+#au{
+    color: rgb(44, 29, 212);
+}
+.centrado{
+    text-align:start;
+}
