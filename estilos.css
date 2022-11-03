@@ -63,7 +63,7 @@
 }
 
 #divisor {
-    padding-bottom: 90px;
+    padding-bottom: 9vh;
 }
 
 .colorFondo {
@@ -85,6 +85,10 @@
     background-image: url(./Imagenes/2435550.png);
     background-size: cover;
     font-size: 20px;
+}
+h4{
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 
