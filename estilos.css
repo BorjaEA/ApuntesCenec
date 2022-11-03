@@ -79,7 +79,7 @@
 .body {
     background-image: url(./Imagenes/84248.png);
     background-size: cover;
-    font-size: 20px;
+    font-size: 1vw;
 }
 .body2 {
     background-image: url(./Imagenes/2435550.png);
@@ -104,11 +104,11 @@
     padding-top: 25px;
 }
 .letra{
-    font-size: 26px;
+    font-size: 1.4vw;
 }
 .letra2{
     text-align: center;
-    font-size: 28px;
+    font-size: 1.4vw;
     margin-bottom: 5px;
 }
 .imagenes1{
