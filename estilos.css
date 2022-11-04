@@ -58,6 +58,7 @@
     background-color: rgba(255, 235, 205, 0.68);
     padding: 10px;
     margin-left: 2vw;
+    padding-bottom: 20px;
     width: 29%;
     border-style: solid;
 }
@@ -77,13 +78,14 @@
 }
 
 .body {
-    background-image: url(./Imagenes/84248.png);
+    background: url(./Imagenes/84248.png) no-repeat center fixed;
     background-size: cover;
     font-size: 1vw;
 }
 .body2 {
-    background-image: url(./Imagenes/2435550.png);
+    background: url(./Imagenes/2435550.png) no-repeat center fixed;
     background-size: cover;
+
     font-size: 20px;
 }
 h4{
