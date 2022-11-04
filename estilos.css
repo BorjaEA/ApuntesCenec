@@ -19,6 +19,14 @@ a:hover{
     position: sticky;
     top: 10px;
 }
+.calculadora{
+    border: none;
+    border-radius: 9px;
+    background-color: #CA8F82;
+    justify-content: center;
+    
+    align-self: center;
+}
 
 .cabecera {
     display: flex;
