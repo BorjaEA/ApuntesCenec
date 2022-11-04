@@ -1,8 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+}
+
+a{
+    text-decoration: none;
+    color:#6d567f;
+    font-weight: bold;
+}
+
+a:hover{
+    font-size: 1.1em;
+    color:#637730;
+}
+
 .top {
     position: sticky;
     top: 10px;
 }
+input{
+    width: 100%;
+    align-self: center;
+    
+    
+}
+input:focus{
+    background-color: white;
+    transition: 0.5s;
+    align-self: center;
+}
+.calculadora{
+    display: grid;
+    grid-template-columns: 2;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#entradaDatos{
+    
+}
+.calculadoraButton{
+    border: none;
+    border-radius: 9px;
+    background-color: #CA8F82;
+    font-size: 1.2em;
 
+}
+.calculadoraButton:hover{
+    background-color: #AA8154;
+    font-size: 1.25em;
+    transition-duration: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.12), 0 17px 50px 0 rgba(0,0,0,0.12);
+}
 .cabecera {
     display: flex;
     flex-direction: row;
@@ -86,7 +137,7 @@
     background: url(./Imagenes/2435550.png) no-repeat center fixed;
     background-size: cover;
 
-    font-size: 20px;
+    font-size: 1vw;
 }
 h4{
     margin-top: 20px;
