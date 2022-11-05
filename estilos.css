@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transition: 0.2s;
+    
 }
 
 a{
@@ -108,7 +108,8 @@ input:focus{
     border-radius: 25px;
     background-color: rgba(255, 235, 205, 0.68);
     padding: 10px;
-    margin-left: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
     padding-bottom: 20px;
     width: 29%;
     border-style: solid;
@@ -153,11 +154,12 @@ h4{
     justify-content: space-around;
 }
 .cont2{
+    margin: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
-    justify-content: flex-start;
+    justify-content: space-around;
     padding-top: 25px;
 }
 .letra{
