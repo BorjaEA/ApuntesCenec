@@ -35,10 +35,10 @@
             <h3 class="letra2"> Operador ternario </h3>
             <h4 style="text-align:start ;"> Estructura:</h4>
             <span class="centrado">(Expresion logica) ? Ocurre si es True: Ocurre si es False.</span> <br> <br>
-            <span class="centrado">Ejemplo: </span> 
+            <span class="centrado">Ejemplo: </span>
             <span class="centrado">(5 › 3) ? Sysout.out.println("Es cierta la expresion") : x=56;</span> <br> <br>
             <span class="centrado">Como 5 es mayor que 3, la consola sacaria por pantalla "Es cierta la expresion",
-                si hubiesemos puesto como expresion  (5 ‹ 3) hubiese resultado en que x=56 </span>
+                si hubiesemos puesto como expresion (5 ‹ 3) hubiese resultado en que x=56 </span>
 
         </div>
         <div class="contenedorRounded2">
@@ -46,22 +46,29 @@
 
 
             <div class="calculadora" id="entradaDatos">
-                <input type="texto1" placeholder="Primer numero...">
-                <input type="texto2" placeholder="Segundo numero...">
-                <br>
-                <input type="resultado" placeholder="Resultado...">
+                <div>
+                    <label>Numero en Hex</label>
+                    <input type="text" placeholder="..." id="NumeroHexa">
+                </div>
+                <div>
+                    <label>Numero en Binario</label>
+                    <input type="number" placeholder="..." id="NumeroBina">
+                </div>
+                <div>
+                    <label>Numero en Decimal</label>
+                    <input type="number" placeholder="..." id="NumeroDeci">
+                </div>
+
 
             </div>
-            <div class="calculadora">
-                <button class="calculadoraButton"> Calcular</button>
-            </div>
+
 
         </div>
-        
-        
+
+
 
     </div>
-<script src="pagProg.js"></script>
+    <script src="pagProg.js"></script>
 </body>
 
 </html>
