@@ -188,8 +188,8 @@ h4{
 .cont2{
     width: 90%;
     margin: 0px;
-    display: grid;
-    flex-wrap: wrap;
+    display: inline-flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: stretch;
     align-content: flex-start;
