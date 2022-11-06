@@ -186,7 +186,7 @@ h4{
     justify-content: space-around;
 }
 .cont2{
-    width: 90%;
+    width: 100%;
     margin: 0px;
     display: inline-flex;
     flex-wrap: nowrap;
