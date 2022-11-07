@@ -10,6 +10,13 @@ numeroHex.addEventListener("input", () => {
 numeroBin.addEventListener("input", () => {
 
     numeroHex.value = parseInt(numeroBin.value, 2).toString(16).toUpperCase();
+    numeroDec.value = parseInt(numeroBin.value, 2)
+})
+
+numeroDec.addEventListener("input", () => {
+
+    numeroHex.value = parseInt()
+
 
 })
 
