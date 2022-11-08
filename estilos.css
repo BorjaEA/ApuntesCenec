@@ -1,48 +1,55 @@
-*{
+* {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
 
-a{
+a {
+    display: inline-flex;
     cursor: pointer;
     text-decoration: none;
-    color:#6d567f;
+    color: #6d567f;
     font-weight: bold;
-    transition: 0.4s;
+    transition: 0.3s;
+    width: 100%;
+
 }
 
-a:hover{
-    font-size: 1.1em;
-    color:#637730;
+a:hover {
+    font-size: 1.05em;
+    color: #637730;
 }
-.calculadora > div{
+
+.calculadora>div {
     width: 100%;
     padding: 20px;
     font-size: 1.15em;
     justify-content: center;
     align-self: center;
 }
+
 .top {
     position: sticky;
     top: 10px;
 }
-input{
+
+input {
     border-radius: 10px;
     width: 100%;
     align-self: flex-start;
     padding: 5px 8px;
 
 }
-label{
+
+label {
     display: inline-block;
     width: 100%;
     margin-bottom: 2px;
-    
+
 }
 
-ul{
-    margin: 0px ;
+ul {
+    margin: 0px;
     margin-block-start: 0;
     margin-block-end: 0;
     padding-left: 1vw;
@@ -50,15 +57,17 @@ ul{
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
-input:focus{
+
+input:focus {
     background-color: white;
     transition: 0.2s;
     overflow: visible;
 }
-.calculadora{
+
+.calculadora {
     display: inline-block;
     height: 80%;
     width: 100%;
@@ -68,22 +77,24 @@ input:focus{
     align-items: flex-start;
     gap: 5px;
 }
-#entradaDatos{
 
-}
-.calculadoraButton{
+#entradaDatos {}
+
+.calculadoraButton {
     border: none;
     border-radius: 9px;
     background-color: #CA8F82;
     font-size: 1.2em;
 
 }
-.calculadoraButton:hover{
+
+.calculadoraButton:hover {
     background-color: #AA8154;
     font-size: 1.25em;
     transition-duration: 0.3s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.12), 0 17px 50px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.12), 0 17px 50px 0 rgba(0, 0, 0, 0.12);
 }
+
 .cabecera {
     display: flex;
     flex-direction: row;
@@ -91,6 +102,7 @@ input:focus{
     border-style: solid;
     border-color: black;
 }
+
 .cabecera2 {
     display: flex;
     border-style: solid;
@@ -99,11 +111,12 @@ input:focus{
     width: 25vw;
     background-color: rgba(255, 235, 205, 0.68);
     justify-content: center;
-    
+
 
 
 }
-.header2{
+
+.header2 {
     display: flex;
     justify-content: center;
 }
@@ -158,7 +171,7 @@ input:focus{
 .textoPegadoIzquierda {
     box-sizing: border-box;
     text-align: start;
-    overflow:visible;
+    overflow: visible;
 }
 
 .body {
@@ -166,26 +179,29 @@ input:focus{
     background-size: cover;
     font-size: 1vw;
 }
+
 .body2 {
     background: url(./Imagenes/2435550.png) no-repeat center fixed;
     background-size: cover;
 
     font-size: 1vw;
 }
-h4{
+
+h4 {
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
 
-.cont{
+.cont {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
     justify-content: space-around;
 }
-.cont2{
+
+.cont2 {
     width: 100%;
     margin: 0px;
     display: inline-flex;
@@ -197,21 +213,58 @@ h4{
     padding-top: 25px;
 }
 
-.letra2{
-    text-align: center;
+.volver {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 35px;
+    border-style: solid;
+    padding-left: 2px;
+    padding-right: 2px;
+    display: flex;
+    background-color: rgba(255, 235, 205, 0.68);
+    bottom: 1%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+
+}
+.contenedorRounded > a {
+    justify-content: flex-start;
+}
+.botones > a{
+    justify-content: center;
+}
+.volver>h3 {
+    width: 100%;
+    font-size: 1.2em;
+    margin: 0;
+    align-items: center;
+    
+}
+.volver>h3>a{
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+}
+
+.letra2 {
+    padding-left: 1vw;
+    text-align: start;
     font-size: 1.4vw;
     margin-bottom: 5px;
 }
-.imagenes1{
+
+.imagenes1 {
     align-items: flex-start;
-    height: 80%; 
-    width: 80%; 
+    height: 80%;
+    width: 80%;
     object-fit: contain;
 }
-#autor{
-    border-radius: 35px;
+
+#autor {
+    border-radius: 25px;
     border-style: solid;
-    font-size:  0.8vw;
+    font-size: 0.8vw;
     height: 35px;
     padding-left: 5px;
     padding-right: 5px;
@@ -220,13 +273,19 @@ h4{
     bottom: 0.5%;
     position: fixed;
 }
-#autor2{
+
+#autor2 {
     margin: 0px;
     align-self: center;
 }
-#au{
+
+#au {
     color: rgb(44, 29, 212);
 }
-.centrado{
-    text-align:start;
+
+.centrado {
+    text-align: start;
+}
+#n{
+    color:black;
 }

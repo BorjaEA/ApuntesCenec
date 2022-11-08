@@ -15,8 +15,8 @@ numeroBin.addEventListener("input", () => {
 
 numeroDec.addEventListener("input", () => {
 
-    numeroHex.value = parseInt()
-
+    numeroHex.value = parseInt(numeroDec.value).toString(16).toUpperCase();
+    numeroBin.value = parseInt(numeroDec.value).toString(2).padStart(8,'0');
 
 })
 
